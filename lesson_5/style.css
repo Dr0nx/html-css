@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts, .cards, .container2, .yandex_map {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top_h1, .top_p, .photo, .send_us, .container2, .yandex_map {
+    padding-bottom: 50px;
+}
+
+.footer_h3, .heading3 {
+    color: #1F3F68;
+}
+
+.top_h2, .form_fullname, .form_email, .form_message, .contacts  {
+    padding-bottom: 50px;
+    color: #1F3F68;
+}
+
+.contacts2 {
+    padding-bottom: 25px;
+}
+
+.top_h1 {
+    width: 510px;
+}
+
+.top_p {
+    width: 425px;
+}
+
+.content2 {
+    width: 359px;
+}
+
+.main__content2 {
+    text-align: center;
+}
+
+.footer__text {
+    width: 495px;
+}
+
+.footer_h3 {
+    width: 340px;
+}
+
+.contacts li, .contacts2 li {
+    list-style-type: none;
+}
+
+.contacts {
+    padding-top: 50px;
+}
+
+.menu {
+    align-items: center;
+    height: 50px;
+}
+
+.send_us, .address h4, .phone h4, .online_service h4 {
+    text-transform: uppercase;
+
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.text, .text_center {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    padding-bottom: 30px;
+}
+
+.text_center {
+    text-align: center;
+}
+
+
+.heading1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.heading2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.heading3 {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.heading4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+.submission {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 10px;
+}
