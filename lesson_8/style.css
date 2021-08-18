@@ -1,0 +1,718 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.container2 {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    list-style-type: none;
+}
+
+.top__box {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.top {
+    min-height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.top__contacts {
+    background-image: url(img/top__info__contacts.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.top__info {
+    padding-top: 115px;
+    flex-grow: 1;
+    background-image: url(img/top__back.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 44%;
+}
+
+.top__info__contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 250px;
+    margin-top: 51px;
+}
+
+.top__contact__us {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.top__text__contacts {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    width: 75%;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.6);
+    flex: 1 1 auto;
+    margin-top: 15px;
+}
+
+.top__button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+.top_p {
+    width: 425px;
+}
+
+.contact_us {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.photo__contacts {
+    padding-top: 150px;
+}
+
+.left__content {
+    padding-left: 100px;
+    margin-right: 101px;
+}
+
+.address {
+    padding-top: 56px;
+    width: 299px;
+}
+
+.text__contacts {
+    width: 273px;
+    opacity: 0.6;
+}
+
+.text__contacts__padding {
+    padding-left: 19px;
+}
+
+.contacts__item__margin {
+    margin-bottom: 10px;
+}
+
+.phone {
+    padding-top: 40px;
+}
+
+.img__text__contacts {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+
+.img__text__contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.send_us {
+    padding-bottom: 19px;
+}
+
+.online_service {
+    padding-top: 40px;
+}
+
+.what-we-do, .project {
+    padding-top: 64px;
+}
+
+.project__img {
+    width: 100%;
+}
+
+.project__item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.project__item_margin {
+    margin-right: 32px;
+}
+
+.project__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 112px;
+}
+
+.project__text {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.project__text_mini {
+    right: auto;
+    left: 32px;
+    top: 32px;
+    text-align: left;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+}
+
+.card {
+    width: 349px;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__img {
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.card__link {
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 64px;
+}
+
+.footer__contact {
+    padding-right: 79px;
+}
+
+.footer__number {
+    padding-right: 19px;
+}
+
+.footer__number__contact {
+    display: flex;
+    justify-self: left;
+    flex-direction: row;
+    width: 316px;
+}
+
+.footer__contact {
+    padding: 0;
+    width: 316px;
+    margin-bottom: 34px;
+}
+
+.footer {
+    height: 690px;
+    background: #316099;
+}
+
+.footer_text {
+    width: 494px;
+}
+
+.footer_h3 {
+    text-align: left !important;
+    padding-top: 91px;
+    width: 340px;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.footer__parent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+
+.footer__button {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    padding: 15px 50px;
+    display: inline-block;
+    margin-top: 190px;
+    text-decoration: none;
+    width: 114px;
+}
+
+.footer_hr {
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+
+.text_top, .text__contacts, .footer_text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.footer__copy-text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.footer_text {
+    color: #FFFFFF;
+    padding-top: 64px;
+}
+
+.footer__copy-text {
+    color: #FFFFFF;
+    padding-top: 26px;
+}
+
+.text_project {
+    width: 75%;
+    margin: 32px auto 64px;
+    color: #222222;
+    opacity: 1;
+    text-align: center;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.top__heading {
+    width: 510px;
+    font-size: 64px;
+    font-weight: 300;
+    color: #1F3F68;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.top__contact_us {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+}
+
+.send_us {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.heading_mini {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
+}
+
+.input {
+    border: 1px solid #5A98D0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+
+}
+
+input::placeholder, textarea::placeholder {
+    color: #5A98D0;
+    opacity: 0.2;
+}
+
+.form_fullname, .form_email, .form_message {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    margin-top: 32px;
+}
+
+.submission {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 100%;
+    height: 72px;
+    margin-top: 72px;
+}
+
+.right__content {
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    margin-top: 65px;
+    margin-right: 100px;
+    padding: 56px;
+}
+
+.send_us, .address h4, .phone h4, .online_service h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.yandex_map {
+    margin-top: 96px;
+    margin-bottom: 112px;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .container2 {
+        margin-top: 64px;
+    }
+
+    .header {
+        padding-top: 24px;
+    }
+
+    .top__info, .top__info__contacts {
+        background-position: right 190px;
+        background-size: 35%;
+    }
+
+    .top__info__contacts {
+        margin-top: 64px;
+    }
+
+    .top__text__contacts {
+        margin-top: 16px;
+    }
+
+    .card-box, .contact_us {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right__content {
+        margin-right: 0;
+    }
+
+    .card {
+        margin-bottom: 32px;
+    }
+
+    .photo__contacts {
+        padding-top: 70px;
+    }
+
+    .yandex_map {
+        margin-bottom: 64px;
+    }
+
+    .footer__parent {
+        padding-left: 124px;
+        padding-right: 124px;
+        margin-bottom: 64px;
+    }
+
+    .footer_h3 {
+        padding-top: 47px;
+        padding-bottom: 32px;
+    }
+
+    .footer_text {
+        padding-top: 0;
+        width: 336px;
+    }
+
+    .footer__button {
+        padding: 5px 20px;
+        margin-top: 170px;
+    }
+
+    .footer__list {
+        padding-left: 124px;
+        flex-direction: column;
+    }
+
+    .footer__contact {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 34px;
+    }
+
+    .footer__copy-text {
+        padding-left: 124px;
+    }
+
+    .footer {
+        height: 700px;
+    }
+
+    .yandex_map {
+        width: 100%;
+    }
+}
+
+@media (max-width: 667px) {
+    .header {
+        padding-top: 24px;
+    }
+
+    .top {
+        min-height: 376px;
+        padding-bottom: 41px;
+        box-sizing: border-box;
+    }
+
+    .top__info {
+        padding-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: none;
+    }
+
+    .top__info__contacts {
+        margin-top: 32px;
+    }
+
+    .top__text__contacts {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .top__contact__us {
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+
+    .left__content {
+        padding: 0;
+        margin: 0;
+    }
+
+    .address {
+        padding-top: 56px;
+    }
+
+    .contact_us {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top__heading {
+        width: 100%;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 12px;
+        text-align: center;
+    }
+
+    .text_top {
+        width: 100%;
+        text-align: center;
+    }
+
+    .top__button {
+        font-size: 12px;
+        line-height: 26px;
+        padding: 0 8px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .what-we-do {
+        padding-top: 48px;
+    }
+
+    .card-box {
+        padding-top: 32px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card__link {
+        margin-top: 46px;
+    }
+
+    .text_project {
+        width: 100%;
+    }
+
+    .project__text {
+        font-size: 16px;
+        line-height: 19px;
+        top: 16px;
+        left: 16px;
+    }
+
+    .project__text_mini {
+        left: 16px;
+    }
+
+    .project__parent {
+        flex-direction: column;
+        margin-top: 16px;
+        margin-bottom: 64px;
+    }
+
+    .footer_text {
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .project__item_margin {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .footer__box {
+        margin: 0;
+    }
+
+    .footer__parent {
+        display: block;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer_h3 {
+        padding-top: 32px;
+        text-align: center !important;
+        width: 100%;
+    }
+
+    .footer__button {
+        margin: 40px 0 41px;
+    }
+
+    .footer__list {
+        padding-left: 16px;
+        padding-top: 32px;
+    }
+
+    .footer__contact {
+        margin: 0 0 17px;
+        padding: 0;
+        width: 100%;
+    }
+
+    .footer__copy-text {
+        text-align: center;
+        padding: 16px 0 37px;
+    }
+
+    .yandex_map {
+        width: 100%;
+    }
+}
